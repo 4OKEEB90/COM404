@@ -9,6 +9,6 @@ shield = int(input())
 
 print("Health has been set.")
 
-print("Lives: "+str(lives))
-print("Energy Level: "+str(energy))
-print("Shield Level: "+str(shield))
+print("Lives: "+"♥"*lives)
+print("Energy Level: "+"♦"*energy)
+print("Shield: "+"♦"*shield)
