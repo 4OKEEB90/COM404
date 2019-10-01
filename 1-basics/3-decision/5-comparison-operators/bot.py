@@ -9,3 +9,4 @@ elif sn < fn:
     print("The second number is the smallest!")
 else:
     print("Both are equal!")
+
