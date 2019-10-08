@@ -5,3 +5,5 @@ for count in range(0, 3, 1):
     print("   / ^     \_ ")
     print(" _/ ^ ^     ^\ ")
     print("/  ^     ^    \ ")
+
+print("\n Done!")
