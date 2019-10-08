@@ -1,6 +1,8 @@
 print("Please enter a phrase: ")
 phrase = str(input())
 print("")
-count = len(phrase)
+count = 0
 
-print("Bop "*count)
+while (count< len(phrase)):
+    print("Bop ",end="")
+    count += 1
