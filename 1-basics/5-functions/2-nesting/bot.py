@@ -4,6 +4,6 @@ def identify():
     if see == "a large boulder":
         print("\nIt's time to run!")
     else:
-        print("\nwe will be fine.")
+        print("\nWe will be fine.")
 
 identify()
