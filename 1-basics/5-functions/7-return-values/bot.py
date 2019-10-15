@@ -16,7 +16,7 @@ def run():
     print("\nWhat would you like to calcluate (sum or average)?")
     choice = str(input())
     if choice == "sum":
-        #Sum = sum_weights(Weight_Beep,Weight_Bop)
+        Sum = sum_weights(Weight_Beep,Weight_Bop)
         print("\nThe sum of Beep and Bop's weight is ", str(Sum))
     elif choice == "average":
         Avg = calc_avg_weight(Weight_Beep,Weight_Bop)
