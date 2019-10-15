@@ -8,7 +8,8 @@ def display_ladder(steps):
 def create_ladder():
     print("How many steps remain?")
     steps = int(input())
+    #return steps
     display_ladder(steps)
-    
 
 create_ladder()
+#display_ladder(steps)
