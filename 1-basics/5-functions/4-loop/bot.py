@@ -1,7 +1,7 @@
 def cross_bridge(steps):
-    for steps in range (0,steps+1,1):
+    for steps in range (1,steps+1,1):
         print("Crossed step.")
-    if steps <= 5:
+    if steps > 5:
         print("The bridge is collapsing!")
     else:
         print("we must keep going!")
