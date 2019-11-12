@@ -6,19 +6,20 @@ class Gui(Tk):
   def __init__(self):
     super().__init__()
 
+    self.add_background_canvas()
     self.add_heading_label()
     self.add_title()
     self.add_body1_label()
     self.add_body2_label()
     self.add_email_entry()
     self.add_sub_button()
-    self.add_
+    
 
   def add_title(self):
     # create
     self.title("Newsletter")
     #style
-    self.configure(bg="#eee", height=175, width=335)
+    self.configure(bg="#ddd", height=175, width=335)
 
   def add_heading_label(self):
     # create   
@@ -57,6 +58,9 @@ class Gui(Tk):
     #style
     self.sub_button.configure(font="Arial 9", text="Subscribe", width = 42)
 
-
-    
-    
+  def add_background_canvas(self):
+    #create
+    self.background_canvas = Canvas(bg="#eee", height=165, width=325)
+    self.background_canvas.place(x=5,y=5)
+    #style
+    self.background_canvas.configure()
